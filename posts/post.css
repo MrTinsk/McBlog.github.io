@@ -1,0 +1,96 @@
+body {
+    margin: auto;
+    background-image: url("../images/GuitarBack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    }
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;}
+
+nav a {
+    color: white;
+    display:inline-block;
+    text-decoration: none;
+    padding: 17px 20px;
+    text-align: center;
+    font-size: 17px; 
+    font-family: 'Permanent Marker', cursive;
+    
+}
+nav a:hover {
+    background-color: rgb(248, 195, 79);
+    color: black;
+    
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: chartreuse;
+}
+
+div {
+    background-color: rgba(20, 91, 134, 0.7);
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: black solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    overflow:auto;
+    
+}
+
+
+.img1 {
+    float: left;
+    margin-right: 15px;
+    border: 4px black solid;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 100%;
+    
+    
+}
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    background-color: rgba(248, 195, 79, 0.7);
+    width: auto;
+    padding-left: 5px;
+    border: 2px black solid;
+    border-radius: 5px;
+    text-align: left;
+    
+}
+
+p {
+    color: rgb(248, 195, 79);}
+    
+.vinyl img{
+    width: 300px;
+    height: 300;
+    border: 4px black solid;
+    border-radius: 5px;
+    margin-right: 20px ;
+    margin-bottom: 20px;}
+
+iframe {
+    border: 2px rgb(0, 49, 95) solid;
+    border-radius: 5px;
+    display: flex;
+    max-width: 100%;
+    }
+
+    

@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-image: url("./images/m2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    
+    }
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    }
+    
+nav a {
+    color: white;
+    display:inline-block;
+    text-decoration: none;
+    padding: 17px 20px;
+    text-align: center;
+    font-size: 17px; 
+    font-family: 'Permanent Marker', cursive;;
+    
+}
+nav a:hover {
+    background-color: rgb(248, 195, 79);
+    color: black;
+    
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+/* 
+nav a:active {
+    background-color: rgb(243, 144, 78);}
+     */
+
+
+
+div {
+    background-color: rgba(20, 91, 134, 0.7);
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: black solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    overflow: auto;
+    
+    
+}
+
+div a {
+    background-color: rgb(180, 92, 66);
+    color: rgb(0, 0, 0);
+    border: 2px black solid;
+    border-radius: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    padding: 2px;
+    
+    }
+
+div a:hover {
+    color: rgb(211, 115, 255);
+    background-color: black;
+    }
+
+div a:visited {
+    background-color: rgb(180, 92, 66);
+    color:white;
+}
+
+div img {
+    border: 2px black solid;
+    border-radius: 5px;}
+
+span {
+    color: white;
+    margin-left: 25%;
+    font-size: 28px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    }
+
+p {
+    background-color: rgba(248, 195, 79, 0.7);
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 2px;
+    
+    }
+h3 {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    background-color: rgba(248, 195, 79, 0.7);
+    width: 75px ;
+    padding-left: 5px;
+    border: 2px black solid;
+    border-radius: 5px;
+    text-align: left;
+}
+
+img {
+    width: 270px;
+    height: 200px;
+
+}
+
