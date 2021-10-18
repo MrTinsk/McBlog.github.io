@@ -1,82 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blog Page"> 
-    <meta name="author" content="martin">
-    <script src="https://kit.fontawesome.com/d79843e30e.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="./index.css">
-    <title>Music Blog</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-
-    
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/d79843e30e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d79843e30e.js" crossorigin="anonymous"></script>
 </head>
-
 
 <body>
 
-   
-    <nav>
-        <a href="index.html"><i class="fas fa-home"></i></a>
-        <a href="./posts/Blues.html" >Blues</a>
-        <a href="./posts/Rock.html">Rock</a>
-        <a href="./posts/Regggae.html">Reggae</a>
 
-        <span>Music Blog</span>
+  <nav class="navbar">
+    <input type="checkbox" id="navbar-toggle" class="checkbox">
+    <label class="navbar-icon" for="navbar-toggle">
+      <span class="material-icons md-36">
+        hexagon
+      </span>
+    </label>
+
+    <div class="main-nav">
+      <span class="banner">
+        <h2>Web Developer</h2>
+      </span>
+      <ul>
+        <li>
+          <a href="#part1">Home</a>
+        </li>
+        <li>
+          <a href="#part2">About</a>
+        </li>
+        <li>
+          <a href="#part3">Projects</a>
+        </li>
+        <li>
+          <a href="#part4">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+  <section id="part1" tabindex="1" class="section-land">
+    <div class="game-contain"><h1>LANDING PAGE IN PRODUCTION</h1>
+      <div class="game1">
+        <div class="game2">
+          <div class="game3">
+          </div>
+        </div>
+      </div>
+    </div>
     
-        
-    </nav>
     
-    <div>
-        <div">
-            <h3>Blues</h3>
+    
+    
+    
 
-            <img src="./images/BB King.jpg" alt="Picture of BB King" >
+  </section>
 
-            <p>Riley B. King (September 16, 1925 – May 14, 2015), known professionally as B.B. King, was an American blues singer-songwriter, guitarist, and record producer. He introduced a sophisticated style of soloing based on fluid string bending, shimmering vibrato and staccato picking that influenced many later blues electric guitar players.</p>
-
-            <a href="./posts/Blues.html" target="_blank">More Info</a>
-
-        </div>
-
-        <div>
-            
-            <h3>Rock</h3>
-
-            <img src="./images/jim morrison.jpg" alt="Picture of Jim Morrison">
-
-            <p>The Doors were an American rock band formed in Los Angeles in 1965, with vocalist Jim Morrison, keyboardist Ray Manzarek, guitarist Robby Krieger, and drummer John Densmore. They were among the most controversial and influential rock acts of the 1960s
-            </p>
-
-            <a href="./posts/Rock.html" target="_blank">More Info</a>
-
-            
-        </div>
-
-        <div>
-
-            <h3>Reggae</h3>
-
-            <img src="./images/bob2.jpg" alt="Picture of Bob Marley">
-
-            <p>Robert Nesta Marley (6 February 1945 – 11 May 1981)was a Jamaican singer, songwriter, and musician. Considered one of the pioneers of reggae, his musical career was marked by fusing elements of reggae, ska, and rocksteady, as well as his distinctive vocal and songwriting style.</p>
-
-            <a href="./posts/Regggae.html" target="_blank">More Info</a>
-
-        </div>
-
-
-
-
+  <section id="part2" tabindex="2" class="section-about">
+    <div class="image">
+      <img src="./images/depositphotos_43381243-stock-illustration-male-avatar-profile-picture.jpg" alt="picture">
+    </div>
+    <div class="introduce">
+      <div class="intro-inside">
+      <h1>Hi, I`m Martin Jaworski</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.          Delectus illum facilis aut rerum esse quo animi cumque
+      cupiditate praesentium, aliquam neque reprehenderit dicta iusto hic aspernatur vel ratione unde sequi.</p>
+    </div>
     </div>
 
+  </section>
 
+  <section id="part3" tabindex="3" class="section-projects">
+    
+    <h2>Latest Projects</h2>
+    <div class="cards-container">
+      
+    <div class="cards c1"><a href="./Music_Blog/index.html" target="blank">Music Blog</a></div>
+    <div class="cards c2"><a href="./Book_Blog/index.html" target="blank">Book Blog</a></div>
+    <div class="cards c3"><a href="./Forest_Exercise/index.html" target="blank">Forest Blog</a></div>
+    </div>
+
+  </section>
+
+  <section id="part4" tabindex="4" class="section-contact">
+
+    <form>
+    <fieldset>
+      <legend>About You</legend>
+        <div>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname">
+        </div>
+        <div>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname">
+        </div>
+        <div>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Project Dates</legend>
+      <div>
+      <label for="projectstart">Project Start:</label>
+      <input type="date" name="projectstart" id="projectstart">
+    </div>
+      <div>
+      <label for="projectend">Project End:</label>
+      <input type="date" name="projectend" id="projectend">
+    </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Message Me</legend>
+      <label for="message"></label>
+      <textarea id="message" name="message" rows="6" cols="28" required></textarea>
+    </fieldset>
+    <input type="button" value="Send">
+    </form>
+    <div class="media">
+      <div class="icons"><a href="#"><i class="rotate fab fa-github"></i></a></div>
+      <div class="icons"><a href="#"><i class="rotate fab fa-instagram"></i></a></div>
+      <div class="icons"><a href="#"><i class="rotate fab fa-twitter"></i></a></div>
+      <div class="icons"><a href="#"><i class="rotate fab fa-linkedin-in"></i></a></div>
+    </div>
+  </section>
 </body>
+
 </html>
